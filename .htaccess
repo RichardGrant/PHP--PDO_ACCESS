@@ -1,0 +1,14 @@
+#Richard Grant#
+#########Database access points##########
+
+SetEnv _portal_host_1 "127.0.0.1"
+SetEnv _portal_database_1 "database_name"
+
+##DATA PERMISSIONS###SELECT#INSERT#UPDATE#DELETE
+SetEnv _portal_user_fullaccess_1 "database_1_username"
+SetEnv _portal_password_fullaccess_1 "database_1_password"
+
+##DATA###SELECT
+SetEnv _portal_user_readonly_1 "database_1_username"
+SetEnv _portal_password_readonly_1 "database_1_password"
+############################################
